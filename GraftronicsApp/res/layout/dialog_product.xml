@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/edtNoofBox"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edt_roun_rect"
+        android:gravity="center"
+        android:singleLine="true"
+        android:hint="Enter barcode"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight=".5"
+            android:background="@drawable/edt_roun_rect_blue"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight=".5"
+            android:background="@drawable/edt_roun_rect_blue"
+            android:text="CANCEL"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

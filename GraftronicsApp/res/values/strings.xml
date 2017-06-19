@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Engineer Call Register</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="offline">Network unavailable. Please connect your device to network.</string>
+    <string name="radio_text">Customer</string>
+    <string name="radio_engineer">Engineer</string>
+    <string name="radio_date">Date</string>
+    <string name="enter_customer">Enter Customer Name</string>
+    <string name="enter_engineer">Enter Engineer Name</string>
+
+</resources>

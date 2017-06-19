@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toplay"
+
+        android:layout_margin="7dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5.0sp" >
+    </ListView>
+    <TextView
+        android:id="@+id/tv_msg" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No records found for selected status."
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+</RelativeLayout>

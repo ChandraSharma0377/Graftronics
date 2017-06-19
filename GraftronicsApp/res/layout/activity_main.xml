@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/option_height"
+            android:layout_weight=".27"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="4dp"
+            android:text="SEARCH"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/option_textsize_height" />
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/option_height"
+            android:layout_weight=".28"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/refresh"
+            android:drawablePadding="4dp"
+            android:layout_gravity="center_vertical"
+            android:text="REFRESH"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/option_textsize_height" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/option_height"
+            android:layout_weight=".27"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/logout"
+            android:drawablePadding="4dp"
+            android:text="LOG OUT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/option_textsize_height" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/option_height"
+            android:layout_weight=".18"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/exit"
+            android:drawablePadding="4dp"
+            android:text="EXIT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/option_textsize_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/topview"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight=".4"
+            android:background="#6CCFF6"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_status_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".15"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_status_p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".15"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_status_c"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".15"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_status_h"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".15"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toplay"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+    </FrameLayout>
+
+</RelativeLayout>

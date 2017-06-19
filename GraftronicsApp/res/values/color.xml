@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionBar_background">#0072BC</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="theme_orange">#F58220</color>
+    <color name="orange_light">#F9A51C</color>
+    <color name="red">#ED1C24</color>
+    <color name="green">#81C341</color>
+    <color name="blue">#00AEEF</color>
+    <color name="blue_secondry">#00AEEF</color>
+    <color name="blue_tertairy">#0B5399</color>
+    <color name="list_divider">#0072BC</color>
+
+</resources>
